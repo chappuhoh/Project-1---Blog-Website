@@ -1,0 +1,24 @@
+
+.my-form{
+  padding: 5px;
+  width: 75%;
+}
+
+.my-form .form-group{
+  padding-bottom: 5px;
+}
+
+.my-form label{
+  display: flex;
+}
+
+.my-form input[type="text"], .my-form textarea{
+  padding: 8px;
+  width: 90%;
+}
+@media(min-width: 900px){
+  .my-form{
+	padding: 10px;
+	width: 100%;
+  }
+}
